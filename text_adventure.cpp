@@ -94,23 +94,23 @@ int main()
   if (choice3 == 'A' || choice3 == 'a' )
   {
     std::cout << "You choose left. As the rowboat goes deeper into the cave it starts to get darker and darker. The small crew that you brought with you starts to panic. Red Beard then calms the crew by noticing a small light in the distance. As you approach the light it become brighter and brighter. At the end is a room full of treasure! You and the crew load up as much as you can and take it back to the ship.\n\n";
-    /*std::cout << "                 ____...------------...____ \n";
-    std::cout << "           _.-'` /o/__ ____ __ __  __ \o\_`''-._ \n";
-    std::cout << "         .'     / /                    \ \     '.\n";
-    std::cout << "         |=====/o/======================\o\=====|\n";
-    std::cout << "         |____/_/________..____..________\_\____|\n";
-    std::cout << "         /   _/ \_     <_o#\__/#o_>     _/ \_   \\n";
-    std::cout << "         \      \_________\####/_________/      /\n";
-    std::cout << "          |===\!/========================\!/===| \n";
-    std::cout << "          |   |=|          .---.         |=|   | \n";
-    std::cout << "          |===|o|=========/     \========|o|===| \n";
-    std::cout << "          |   | |         \() ()/        | |   | \n";
-    std::cout << "          |===|o|======{'-.) A (.-'}=====|o|===| \n";
-    std::cout << "          | __/ \__     '-.\uuu/.-'    __/ \__ | \n";
-    std::cout << "          |         |==== .'.'^'.'.====|       | \n";
-    std::cout << "          |  _\o/   __  {.' __  '.} _   _\o/  _| \n";
-    std::cout << "          `""""-""""""""""""""""""""""""""-""""` \n";
-    */
+    std::cout << "         ____...------------...____ " << "\n";
+    std::cout << "    _.-'` <0>__ ____ __ __  __ <0>_`''-._ " << "\n";
+    std::cout << "  .'     < >                    < >     '. " << "\n";
+    std::cout << "  |=====<0>======================<0>=====| " << "\n";
+    std::cout << "  |____<_>________..____..________<_>____| " << "\n";
+    std::cout << "  <   _< >_     <_o#<__>#o_>     _< >_   > " << "\n";
+    std::cout << "   <     <_________<####>_________>     > " << "\n";
+    std::cout << "   |===<!>========================<!>===| " << "\n";
+    std::cout << "   |   |=|          .---.         |=|   | " << "\n";
+    std::cout << "   |===|0|=========I     I========|0|===| " << "\n";
+    std::cout << "   |   | |         I() ()I        | |   | " << "\n";
+    std::cout << "   |===|0|======{'-.) A (.-'}=====|0|===| " << "\n";
+    std::cout << "   | __< >__     '-.<uuu>.-'    __< >__ | " << "\n";
+    std::cout << "   |         |==== .'.'^'.'.====|       | " << "\n";
+    std::cout << "   |  _<0>   __  {.' __  '.} _   _<0>  _| " << "\n";
+    std::cout << "   `''-'''''''''''''-'''-''''''''''''-''` " << "\n";
+    
   }
 
   else if (choice2 == 'B' || choice2 == 'b')
