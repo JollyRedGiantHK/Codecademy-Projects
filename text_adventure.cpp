@@ -69,16 +69,17 @@ int main()
   }
   else if (choice2 == 'B' || choice2 == 'b') 
   {
-    std::cout << "FILLER DIALOGUE\n";
+    std::cout << "Red Beard grabs you and a small crew after lowering the anchor on the ship. With this small crew in a small row boat, you help navigate around the backside of the island. There is nobody on this side of the island. You spot a small cave and according to the map this is the way to go to get to that magical X mark.\n";
   }
 
-  std::cout << "FILLER DIALOGUE\n";
+  std::cout << "As the boat slowly wades down this cave Red Beard notices a fork where the cave splits to two seperate direction. He then turns to you again and with confidence lifts his hat in your direction.\n";
 
   //Last choice choose wisely! 
-  std::cout << "QUESTION ASKING FOR CHOICE\n";
+  std::cout << "================================\n";
+  std::cout << "Which way do you decide to go? Left or Right?\n";
 
-  std::cout << " A) \n";
-  std::cout << " B) \n";
+  std::cout << " A) Left\n";
+  std::cout << " B) Right\n";
 
   char choice3 = 'A';
 
@@ -92,7 +93,7 @@ int main()
 
   if (choice3 == 'A' || choice3 == 'a' )
   {
-    std::cout << "MORE DIALOGUE\n\n";
+    std::cout << "You choose left. As the rowboat goes deeper into the cave it starts to get darker and darker. The small crew that you brought with you starts to panic. Red Beard then calms the crew by noticing a small light in the distance. As you approach the light it become brighter and brighter. At the end is a room full of treasure! You and the crew load up as much as you can and take it back to the ship.\n\n";
     /*std::cout << "                 ____...------------...____ \n";
     std::cout << "           _.-'` /o/__ ____ __ __  __ \o\_`''-._ \n";
     std::cout << "         .'     / /                    \ \     '.\n";
@@ -114,7 +115,7 @@ int main()
 
   else if (choice2 == 'B' || choice2 == 'b')
   {
-    std::cout << "DIALOGUE THAT END IN DEATH\n";
+    std::cout << "You chose right. The cave becomes darker and darker. Suddenly there is a loud rushing of water and it is pulling the row boat in. There is nothing more anyone can do. The rowboat plunges over the edfe and there is a pit full of spikes at the bottom...\n";
     std::cout << "Your adventure comes to an end.\n\n";
 
     return 0;
