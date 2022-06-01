@@ -11,32 +11,118 @@ int main()
   std::cout << "================================\n";
   std::cout << "As the navigator what do you do?\n";
 
-  // Choose one!
   char choice1 = 'A';
-  char choice2 = 'A';
-  char choice3 = 'A';
+
+  // Choose one! Will you find out what the map says?
 
   std::cout << " A) Choose to follow the map from the bottle.\n";
   std::cout << " B) Choose to continue sailing to nearest town.\n";
 
   std::cin >> choice1;
 
-  while(choice1 != 'A' && choice1 != 'a' && choice1 != 'B' && choice1 != 'b')
+  while (choice1 != 'A' && choice1 != 'a' && choice1 != 'B' && choice1 != 'b')
   {
     std::cout << "Quit lollygagging make a decision! \n";
     std::cin >> choice1;
   }
 
-    if (choice1 == 'A' || choice1 == 'a')
-    {
-      std::cout << "Red Beard yells out 'Turn to the west!' The ship then hard turns as the crew hoistes the sails of the left of the ship to catch the wind. You look down at your compass and you are now heading directly towards the X that is clearly marked on the map.\n"; 
-    }
+  if (choice1 == 'A' || choice1 == 'a')
+  {
+    std::cout << "Red Beard yells out 'Turn to the west!' The ship then hard turns as the crew hoistes the sails of the left of the ship to catch the wind.\n"; 
+    std::cout << "You look down at your compass and you are now heading directly towards the X that is clearly marked on the map.\n"; 
+  }
 
-    else if (choice1 == 'B' || choice1 == 'b')
-    {
-      std::cout << "The ship remains on course toward the city of Bridgetwon in Barbados. Suddenly, the storm takes a turn for the worst and lightning strikes the main hull. A giant hole appears! Due to the waves smashing against that same area the hole continues to grow. There is no way out. The ship sinks... The adventure ends.\n";
-      return 0;
-    }
+  else if (choice1 == 'B' || choice1 == 'b')
+  {
+    std::cout << "The ship remains on course toward the city of Bridgetwon in Barbados. Suddenly, the storm takes a turn for the worst and lightning strikes the main hull. A giant hole appears! Due to the waves smashing against that same area the hole continues to grow. There is no way out. The ship sinks...\n\n";
+    std::cout << "Your adventure comes to an end.\n";
+    
+    return 0;
+  }
   
+  std::cout << "Thanks to your quick decision making the ship navigates out of the storm. As you continue following the map and the storm settles a mysterious island appears on the horizon. This islands shape is exactly how it is on the map. As the ship approaches you notice little sillouttes of human figures on the beach of the island.\n";
+  std::cout << "Red Beard once again looks to you.\n";
+  std::cout << "================================\n";
+  std::cout << "'Do we approach the island straigt on and come face to face with the mysterious sillouttes or drop anchor and sneak around the back of the island on a row boat?'\n";
+
+  // Choose one! Will this cause the fate of you and your crew?
+  std::cout << " A) Approach the island head on.\n";
+  std::cout << " B) Sneak around the back of the island.\n";
+
+  char choice2 = 'A';
+
+  std::cin >> choice2;
+
+  while (choice2 != 'A' && choice2 != 'a' && choice2 != 'B' && choice2!= 'b')
+  {
+    std::cout << "Get on with it lad! Make a decision.\n";
+    std::cin >> choice2;
+  }
+
+  if (choice2 == 'A' || choice2 == 'a' )
+  {
+    std::cout << "As ship starts to inch closer to the island, a member of the crew yells out 'CANNONBALL.' Instantly after that yell echos through the ship cannonballs start ripping through the ships sails and smashing into the deck. Red Beard screams 'Ready for battle!'\n";
+    std::cout << "You race to the helm to turn the ship so that the starboard cannons face the island. But it is too late, there are too many cannon balls already baraging the ship. You witness one fly throught he front sail and colliding directly into Red Beard... The fate of the crew is settled.\n\n";
+    std::cout << "Your adventure comes to an end.\n\n";
+
+    return 0;
+  }
+  else if (choice2 == 'B' || choice2 == 'b') 
+  {
+    std::cout << "FILLER DIALOGUE\n";
+  }
+
+  std::cout << "FILLER DIALOGUE\n";
+
+  //Last choice choose wisely! 
+  std::cout << "QUESTION ASKING FOR CHOICE\n";
+
+  std::cout << " A) \n";
+  std::cout << " B) \n";
+
+  char choice3 = 'A';
+
+  std::cin >> choice3;
+
+  while (choice3 != 'A' && choice3 != 'a' && choice3 != 'B' && choice3!= 'b')
+  {
+    std::cout << "This choice is going to determine everything! Hurry up and choose.\n";
+    std::cin >> choice3;
+  }
+
+  if (choice3 == 'A' || choice3 == 'a' )
+  {
+    std::cout << "MORE DIALOGUE\n\n";
+    /*std::cout << "                 ____...------------...____ \n";
+    std::cout << "           _.-'` /o/__ ____ __ __  __ \o\_`''-._ \n";
+    std::cout << "         .'     / /                    \ \     '.\n";
+    std::cout << "         |=====/o/======================\o\=====|\n";
+    std::cout << "         |____/_/________..____..________\_\____|\n";
+    std::cout << "         /   _/ \_     <_o#\__/#o_>     _/ \_   \\n";
+    std::cout << "         \      \_________\####/_________/      /\n";
+    std::cout << "          |===\!/========================\!/===| \n";
+    std::cout << "          |   |=|          .---.         |=|   | \n";
+    std::cout << "          |===|o|=========/     \========|o|===| \n";
+    std::cout << "          |   | |         \() ()/        | |   | \n";
+    std::cout << "          |===|o|======{'-.) A (.-'}=====|o|===| \n";
+    std::cout << "          | __/ \__     '-.\uuu/.-'    __/ \__ | \n";
+    std::cout << "          |         |==== .'.'^'.'.====|       | \n";
+    std::cout << "          |  _\o/   __  {.' __  '.} _   _\o/  _| \n";
+    std::cout << "          `""""-""""""""""""""""""""""""""-""""` \n";
+    */
+  }
+
+  else if (choice2 == 'B' || choice2 == 'b')
+  {
+    std::cout << "DIALOGUE THAT END IN DEATH\n";
+    std::cout << "Your adventure comes to an end.\n\n";
+
+    return 0;
+  }
+
+  std::cout << "You, Red Beard, and the crew bask in riches for the rest of your days.\n";
+  std::cout << "===========================================\n";
+  std::cout << "               T H E  E N D\n\n";
+
   return 0;
 }
