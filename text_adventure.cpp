@@ -1,6 +1,7 @@
 #include <iostream> 
 
-int main(){
+int main()
+{
   //This is going to be an adventure, strap in and get ready!
   std::cout << "It is a dark and stormy day out on the sea. The waves are smashing against the port and starboard, causing the ship to rock back and forth. A rough way for any pirate to start their voyage to the unkown.\n";
   std::cout << "Suddenly, a dark glass bottle washing up from a wave and crashes upon the deck. The bottle shatters with a loud crash, the crew takes notice that there is a parchment roled up tight within the bottle.\n";
