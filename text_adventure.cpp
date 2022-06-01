@@ -36,3 +36,6 @@ int main(){
       std::cout << "The ship remains on course toward the city of Bridgetwon in Barbados. Suddenly, the storm takes a turn for the worst and lightning strikes the main hull. A giant hole appears! Due to the waves smashing against that same area the hole continues to grow. There is no way out. The ship sinks... The adventure ends.\n";
       return 0;
     }
+  
+  return 0;
+}
